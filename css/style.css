@@ -87,6 +87,15 @@ a:hover {
 }
 
 /* **************** My Styles *****************  */
+
+.bg-color {
+    background-color: var(--bg-color);
+}
+
+.bg-alpha-color {
+    background-color: var(--bg-alpha-color);
+}
+
 .bg-gradient-blue-green {
     background-color: rgba(83, 184, 152, 1);
     background-image: linear-gradient(135deg,
@@ -97,8 +106,11 @@ a:hover {
             rgba(83, 184, 152, 1));
 }
 
-.bg-color {
-    background-color: var(--bg-color);
+.bg-hero-image {
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .bg-third-color {
